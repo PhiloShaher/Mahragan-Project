@@ -1,0 +1,37 @@
+{
+  "name": "churchmahrgan",
+  "version": "1.0.0",
+  "description": "DEVELOPED BY PHILOPATEER MAKARY",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "app",
+    "church"
+  ],
+  "author": "Philopateer Makary",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.3.1",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.yourcompany.churchmahrgan",
+    "productName": "Church Mahrgan",
+    "icon": "build/icon",
+    "win": {
+      "icon": "build/icon.ico"
+    },
+    "mac": {
+      "icon": "build/icon.icns"
+    },
+    "linux": {
+      "icon": "build/icon.png"
+    }
+  }
+}
